@@ -1,25 +1,36 @@
 apiVersion: v1
 entries:
+  appbase:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-07-24T20:36:55.914955089+08:00"
+    description: A Helm chart for Kubernetes
+    digest: b5fec8310945e192343821f5995399c7ef6cffede393eee6b307348d661ad40f
+    name: appbase
+    type: application
+    urls:
+    - appbase-0.1.0.tgz
+    version: 0.1.0
   helloworld:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-01T13:03:47.059522278+08:00"
+    created: "2023-07-24T20:36:55.915537373+08:00"
     description: A Helm chart for Kubernetes
     digest: 61ba43eb847e08facbbefb035918e5830604a384d7a14c4d841ea583b4362b93
     name: helloworld
     type: application
     urls:
-    - https://gogoggg.github.io/helm/charts/helloworld-0.1.0.tgz
+    - helloworld-0.1.0.tgz
     version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-01T13:03:47.059896555+08:00"
+    created: "2023-07-24T20:36:55.916364051+08:00"
     description: A Helm chart for Kubernetes
     digest: 7ccd9d9e0bc72774196f5088464a8f9733bf5c7a0db1e3d85468623fdd216311
     name: nginx
     type: application
     urls:
-    - https://gogoggg.github.io/helm/charts/nginx-0.1.0.tgz
+    - nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-01T13:03:47.058859049+08:00"
+generated: "2023-07-24T20:36:55.910608665+08:00"
